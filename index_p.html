@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jyotish Kumar | Portfolio</title>
+
+    <link rel="stylesheet" href="style_p.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+    <!-- Cyberpunk animated background -->
+    <canvas id="cyberpunk-bg"></canvas>
+
+    <!-- Custom cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                JK<span>.</span>
+            </div>
+
+            <div class="nav-links">
+                <button onclick="showSection('home')">Home</button>
+                <button onclick="showSection('about')">About</button>
+                <button onclick="showSection('projects')">Projects</button>
+                <button onclick="showSection('achievements')">Achievements</button>
+                <button onclick="showSection('cv')">CV</button>
+                <button onclick="showSection('contact')">Contact</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="section active">
+
+        <div class="home-container">
+
+            <div class="photo-placeholder">
+    <img src="my-photo.jpg" alt="Jyotish Kumar">
+</div>
+            <div class="home-content">
+
+                <p class="small-text">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Jyotish <span>Kumar</span></h1>
+
+                <h2>Computer Science & Engineering Student</h2>
+
+                <p>
+                    Learning. Building. Exploring how things work.
+                </p>
+
+                <div class="home-buttons">
+                    <button class="main-button" onclick="showSection('about')">
+                        About Me
+                    </button>
+
+                    <button class="main-button" onclick="showSection('projects')">
+                        My Projects
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-container">
+
+            <p class="section-label">01 / ABOUT</p>
+
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+
+                <div class="about-card">
+
+                    <h3>Who I Am</h3>
+
+                    <p>
+                        Hi, I'm <strong>Jyotish Kumar</strong>, a Computer Science
+                        and Engineering student at Lovely Professional University.
+                    </p>
+
+                    <p>
+                        I am interested in understanding how technology works
+                        at a deeper level and enjoy building projects that combine
+                        programming, electronics, and problem-solving.
+                    </p>
+
+                    <p>
+                        I am currently developing my skills in C++, web development,
+                        and electronics while exploring different areas of
+                        computer science.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <h3>Education</h3>
+
+                    <div class="info-item">
+                        <span>College</span>
+                        <strong>Lovely Professional University</strong>
+                    </div>
+
+                    <div class="info-item">
+                        <span>Course</span>
+                        <strong>B.Tech - Computer Science & Engineering</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <h3>Hobbies & Interests</h3>
+
+                    <ul class="interest-list">
+                        <li>Abstract Art & Drawing</li>
+                        <li>Exploring How Things Work</li>
+                        <li>Problem Solving</li>
+                        <li>Technical Exploration</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-container">
+
+            <p class="section-label">02 / PROJECTS</p>
+
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+
+    <div class="project-number">01</div>
+
+    <h3>Electronics Engineering Project</h3>
+
+    <p>
+        An electronics-based project developed using Arduino
+        and various electronic components and tools.
+    </p>
+
+    <div class="technology-icons">
+
+        <div class="technology">
+            <i class="devicon-arduino-plain"></i>
+            <span>Arduino</span>
+        </div>
+
+        <div class="technology">
+            <span class="custom-tech-icon">HW</span>
+            <span>Hardware</span>
+        </div>
+
+    </div>
+
+</div>
+
+
+                        <div class="project-card">
+
+            <div class="project-number">02</div>
+
+            <h3>Web Application</h3>
+
+            <p>
+                A web application developed using HTML, CSS and
+                JavaScript with an interactive user interface.
+            </p>
+
+            <div class="technology-icons">
+
+                <div class="technology">
+                    <i class="devicon-html5-plain"></i>
+                    <span>HTML</span>
+                </div>
+
+                <div class="technology">
+                    <i class="devicon-css3-plain"></i>
+                    <span>CSS</span>
+                </div>
+
+                <div class="technology">
+                    <i class="devicon-javascript-plain"></i>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+                <div class="project-card coming-soon">
+
+                    <div class="project-number">03</div>
+
+                    <h3>Future Project</h3>
+
+                    <p>
+                        A new project will be added here soon.
+                    </p>
+
+                    <div class="tags">
+                        <span>Coming Soon</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+
+    <section id="achievements" class="section">
+
+        <div class="section-container">
+
+            <p class="section-label">03 / ACHIEVEMENTS</p>
+
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="achievement-grid">
+
+                <div class="achievement-card">
+
+                    <div class="achievement-icon">01</div>
+
+                    <div>
+                        <h3>School Captain</h3>
+
+                        <p>
+                            Served as school captain during an interschool
+                            football competition in Class 11, taking responsibility
+                            for leading and coordinating the team.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="achievement-card">
+
+                    <div class="achievement-icon">02</div>
+
+                    <div>
+                        <h3>C++ Certification</h3>
+
+                        <p>
+                            Completed 40+ hours of coursework in C++ and
+                            earned a certification in C++ programming.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CV ================= -->
+
+    <section id="cv" class="section">
+
+        <div class="section-container cv-container">
+
+            <p class="section-label">04 / CV</p>
+
+            <h2 class="section-title">My CV</h2>
+
+            <div class="cv-placeholder">
+
+                <div class="cv-icon">CV</div>
+
+                <h3>CV Coming Soon</h3>
+
+                <p>
+                    My CV will be available here.
+                </p>
+
+                <button class="main-button" onclick="alert('Your CV will be added here later.')">
+                    View CV
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <div class="section-container contact-container">
+
+            <p class="section-label">05 / CONTACT</p>
+
+            <h2 class="section-title">Let's Connect</h2>
+
+            <p class="contact-intro">
+                Feel free to reach out if you would like to connect or
+                discuss a project.
+            </p>
+
+            <div class="contact-links">
+
+    <a href="mailto:jyotishkr545@gmail.com" class="contact-item">
+
+        <i class="contact-icon">✉</i>
+
+        <div>
+            <span>Email</span>
+            jyotishkr545@gmail.com
+        </div>
+
+    </a>
+
+
+    <a href="#" onclick="showLinkedInMessage(event)" class="contact-item">
+
+        <i class="devicon-linkedin-plain contact-icon"></i>
+
+        <div>
+            <span>LinkedIn</span>
+            Connect with me
+        </div>
+
+    </a>
+
+</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 Jyotish Kumar
+        </p>
+
+        <p>
+            Built with HTML • CSS • JavaScript
+        </p>
+
+    </footer>
+
+
+    <script src="script_p.js"></script>
+
+</body>
+</html>
